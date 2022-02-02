@@ -12,9 +12,9 @@
 	    <div class="card">
 	      <div class="card-body">
 	        <h5 class="card-title">Search something...</h5>
-	        <form id="search-form" action='results.php' method="post"> 
+	        <form id="search-form" action='login.php' method="post"> 
 	        	<input type="text" class="form-control" name="search-text" placeholder="Enter some text...">
-	        	<button type="submit" class="btn btn-primary">Search</button>
+	        	<button type="submit" name="search" class="btn btn-primary">Search</button>
 	        </form>
 	      </div>
 	    </div>

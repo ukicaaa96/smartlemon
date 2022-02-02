@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "../model/registration.php";
 
 $mail = (isset($_POST['email-input'])) ? $_POST['email-input'] : "";

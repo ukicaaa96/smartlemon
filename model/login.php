@@ -29,6 +29,8 @@ class Login extends Database{
 
     private function setSession(){
         $_SESSION['user'] = $this->hash;
+        $_COOKIE['user'] = $this->hash;
+    
     }
     private function validatePassword(){
         $encryptedPass = $this->encryptPassword();

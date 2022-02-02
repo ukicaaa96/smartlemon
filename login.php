@@ -1,3 +1,5 @@
+<?php include_once "model/userdata.php"; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,6 +32,9 @@
 	      </div>
 	    </div>
 	  </div>
+
+	 <?php include "controller/userdata.php";?>
+
 	</div>
 </div>
 
