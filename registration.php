@@ -13,7 +13,7 @@
 	    <div class="card">
 	      <div class="card-body">
 	        <h5 class="card-title">Registration page</h5>
-	        <form id="register-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+	        <form id="register-form" method="post" action="controller/registration.php">
 			  <div class="form-group">
 			    <label for="email-input">Email address</label>
 			    <input type="email" class="form-control" id="email-input" name="email-input" aria-describedby="emailHelp" placeholder="Enter email">
