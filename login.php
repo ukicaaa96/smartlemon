@@ -15,7 +15,7 @@
 	    <div class="card">
 	      <div class="card-body">
 	        <h5 class="card-title">Login page</h5>
-	        <form id="login-form" method="post" action="">
+	        <form id="login-form" method="post" action="controller/login.php">
 			  <div class="form-group">
 			    <label for="email-input">Email address</label>
 			    <input type="email" class="form-control" id="email-input" name="email-input" aria-describedby="emailHelp" placeholder="Enter email">

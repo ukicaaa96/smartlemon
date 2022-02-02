@@ -9,3 +9,4 @@ $password2 = (isset($_POST['password2-input'])) ? $_POST['password2-input'] : ""
 $b = new Registration($name,$mail,$password,$password2);
 $b->registerUser();
 
+
